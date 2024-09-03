@@ -13,3 +13,74 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Gradle files
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (store in environment-specific configuration files)
+local.properties
+
+# User-specific configuration files
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/*.iml
+.idea/workspace.xml
+.idea/codeStyles/
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+
+# Android Studio navigation editor temp files
+.navigation/
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder generated in Android Studio 2.2+.
+.externalNativeBuild/
+
+# IntelliJ
+out/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# End of generated section
+.idea/vcs.xml
+.idea/misc.xml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Python files (used for debugging or other purposes)
+*.pyc
+*.pyo
+
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore any files or directories related to JetBrains IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore build directories
+build/
+*/build/
+
+# Ignore any files related to APKs
+*.apk
+*.ap_
+
